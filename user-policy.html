@@ -26,34 +26,40 @@
 <body>
 
     <!-- Navigation 1 -->
-    <nav class="bg-light text-center navigation_1" dir="ltr">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light navigation_1" dir="ltr">
         <div class="container-fluid px-xl-0">
-            <div class="row justify-content-center align-items-center f-16">
-                <div class="mb-20 mb-lg-0 col-lg-2 text-lg-left">
-                    <a href="index.html" class="link img_link">
-                        <img src="i/SEHRAG LOGO-01.svg" alt="Logo" class="img-fluid" data-aos="fade-down"
-                            data-aos-delay="250">
-                    </a>
-                </div>
-                <div class="col-lg-8" data-aos="fade-down" data-aos-delay="0">
-                    <a href="vendor-settings.html" class="link mx-15">
-                        إعدادات حساب المورد
-                    </a>
-                    <a href="del.sehrag.com" class="link mx-15">
-                        إعدادات حساب الموصل
-                    </a>
-                    <a href="user-settings.html" class="link mx-15">
-                        إعدادات حساب المشتري
-                    </a>
-                    <a href="terms&conditions.html" class="link mx-15">
-                        الشروط و الأحكام
-                    </a>
-                    <!-- <a href="#" class="mx-15 link color-main">
-						<i class="fas fa-search">
-						</i>
-					</a> -->
-                </div>
-                <div class="mt-20 mt-lg-0 col-lg-2 d-flex flex-wrap justify-content-center justify-content-lg-end align-items-center"
+            <a href="index.html" class="link img_link">
+                <img src="i/SEHRAG LOGO-01.svg" alt="Logo" class="img-fluid" data-aos="fade-down" data-aos-delay="250">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <i class="fal fa-bars"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent" data-aos="fade-down" data-aos-delay="0">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a href="vendor-settings.html" class="link mx-15">
+                            إعدادات حساب المورد
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="del.sehrag.com" class="link mx-15">
+                            إعدادات حساب الموصل
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="user-settings.html" class="link mx-15">
+                            إعدادات حساب المشتري
+                        </a>
+                    </li>
+                    <li>
+                        <a href="terms&conditions.html" class="link mx-15">
+                            الشروط و الأحكام
+                        </a>
+                    </li>
+                </ul>
+                <div class="mt-20 mt-lg-0 flex-wrap justify-content-center justify-content-lg-end align-items-center login-dev"
                     data-aos="fade-down" data-aos-delay="250">
 
                     <a href="#" id="logInLink" class="btn mr-20 sm action-2 f-16 login" data-bs-toggle="modal"
